@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E903132219CA9F400756583 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E903131219CA9F300756583 /* GameScene.swift */; };
 		5EB01BF6219A1A8000CDABBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB01BF5219A1A8000CDABBB /* AppDelegate.swift */; };
 		5EB01BF8219A1A8000CDABBB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5EB01BF7219A1A8000CDABBB /* GameScene.sks */; };
 		5EB01BFA219A1A8000CDABBB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5EB01BF9219A1A8000CDABBB /* Actions.sks */; };
-		5EB01BFC219A1A8000CDABBB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB01BFB219A1A8000CDABBB /* GameScene.swift */; };
 		5EB01BFE219A1A8000CDABBB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB01BFD219A1A8000CDABBB /* GameViewController.swift */; };
 		5EB01C01219A1A8000CDABBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB01BFF219A1A8000CDABBB /* Main.storyboard */; };
 		5EB01C03219A1A8100CDABBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB01C02219A1A8100CDABBB /* Assets.xcassets */; };
 		5EB01C06219A1A8100CDABBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EB01C04219A1A8100CDABBB /* LaunchScreen.storyboard */; };
-		5EB01C11219A1A8200CDABBB /* FlappyBeetleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB01C10219A1A8200CDABBB /* FlappyBeetleTests.swift */; };
-		5EB01C1C219A1A8200CDABBB /* FlappyBeetleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB01C1B219A1A8200CDABBB /* FlappyBeetleUITests.swift */; };
+		5EB01C2B219A1B0500CDABBB /* CoinSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5EB01C29219A1B0500CDABBB /* CoinSound.mp3 */; };
+		5EB01C2C219A1B0500CDABBB /* player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 5EB01C2A219A1B0500CDABBB /* player.atlas */; };
+		5EB01C2E219A1BBE00CDABBB /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB01C2D219A1BBE00CDABBB /* GameElements.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,22 +38,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E903131219CA9F300756583 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = ../../../Downloads/Beetle/Beetle/GameScene.swift; sourceTree = "<group>"; };
 		5EB01BF2219A1A8000CDABBB /* FlappyBeetle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyBeetle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB01BF5219A1A8000CDABBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EB01BF7219A1A8000CDABBB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		5EB01BF9219A1A8000CDABBB /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		5EB01BFB219A1A8000CDABBB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		5EB01BFD219A1A8000CDABBB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		5EB01C00219A1A8000CDABBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EB01C02219A1A8100CDABBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EB01C05219A1A8100CDABBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EB01C07219A1A8100CDABBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EB01C0C219A1A8200CDABBB /* FlappyBeetleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyBeetleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EB01C10219A1A8200CDABBB /* FlappyBeetleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyBeetleTests.swift; sourceTree = "<group>"; };
-		5EB01C12219A1A8200CDABBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EB01C17219A1A8200CDABBB /* FlappyBeetleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyBeetleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EB01C1B219A1A8200CDABBB /* FlappyBeetleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyBeetleUITests.swift; sourceTree = "<group>"; };
-		5EB01C1D219A1A8200CDABBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EB01C29219A1B0500CDABBB /* CoinSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CoinSound.mp3; sourceTree = "<group>"; };
+		5EB01C2A219A1B0500CDABBB /* player.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = player.atlas; sourceTree = "<group>"; };
+		5EB01C2D219A1BBE00CDABBB /* GameElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				5EB01BF4219A1A8000CDABBB /* FlappyBeetle */,
-				5EB01C0F219A1A8200CDABBB /* FlappyBeetleTests */,
-				5EB01C1A219A1A8200CDABBB /* FlappyBeetleUITests */,
 				5EB01BF3219A1A8000CDABBB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,32 +104,17 @@
 				5EB01BF5219A1A8000CDABBB /* AppDelegate.swift */,
 				5EB01BF7219A1A8000CDABBB /* GameScene.sks */,
 				5EB01BF9219A1A8000CDABBB /* Actions.sks */,
-				5EB01BFB219A1A8000CDABBB /* GameScene.swift */,
+				5E903131219CA9F300756583 /* GameScene.swift */,
 				5EB01BFD219A1A8000CDABBB /* GameViewController.swift */,
+				5EB01C2D219A1BBE00CDABBB /* GameElements.swift */,
 				5EB01BFF219A1A8000CDABBB /* Main.storyboard */,
 				5EB01C02219A1A8100CDABBB /* Assets.xcassets */,
 				5EB01C04219A1A8100CDABBB /* LaunchScreen.storyboard */,
 				5EB01C07219A1A8100CDABBB /* Info.plist */,
+				5EB01C29219A1B0500CDABBB /* CoinSound.mp3 */,
+				5EB01C2A219A1B0500CDABBB /* player.atlas */,
 			);
 			path = FlappyBeetle;
-			sourceTree = "<group>";
-		};
-		5EB01C0F219A1A8200CDABBB /* FlappyBeetleTests */ = {
-			isa = PBXGroup;
-			children = (
-				5EB01C10219A1A8200CDABBB /* FlappyBeetleTests.swift */,
-				5EB01C12219A1A8200CDABBB /* Info.plist */,
-			);
-			path = FlappyBeetleTests;
-			sourceTree = "<group>";
-		};
-		5EB01C1A219A1A8200CDABBB /* FlappyBeetleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				5EB01C1B219A1A8200CDABBB /* FlappyBeetleUITests.swift */,
-				5EB01C1D219A1A8200CDABBB /* Info.plist */,
-			);
-			path = FlappyBeetleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +222,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EB01C01219A1A8000CDABBB /* Main.storyboard in Resources */,
+				5EB01C2B219A1B0500CDABBB /* CoinSound.mp3 in Resources */,
 				5EB01BF8219A1A8000CDABBB /* GameScene.sks in Resources */,
 				5EB01C03219A1A8100CDABBB /* Assets.xcassets in Resources */,
+				5EB01C2C219A1B0500CDABBB /* player.atlas in Resources */,
 				5EB01C06219A1A8100CDABBB /* LaunchScreen.storyboard in Resources */,
 				5EB01BFA219A1A8000CDABBB /* Actions.sks in Resources */,
 			);
@@ -267,7 +252,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EB01BFC219A1A8000CDABBB /* GameScene.swift in Sources */,
+				5E903132219CA9F400756583 /* GameScene.swift in Sources */,
+				5EB01C2E219A1BBE00CDABBB /* GameElements.swift in Sources */,
 				5EB01BFE219A1A8000CDABBB /* GameViewController.swift in Sources */,
 				5EB01BF6219A1A8000CDABBB /* AppDelegate.swift in Sources */,
 			);
@@ -277,7 +263,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EB01C11219A1A8200CDABBB /* FlappyBeetleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +270,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EB01C1C219A1A8200CDABBB /* FlappyBeetleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +431,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7RGB38XGJ2;
 				INFOPLIST_FILE = FlappyBeetle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,6 +450,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7RGB38XGJ2;
 				INFOPLIST_FILE = FlappyBeetle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
